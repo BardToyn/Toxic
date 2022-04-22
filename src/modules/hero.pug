@@ -1,0 +1,19 @@
+section.hero
+    article.hero__article
+        h1.hero__heading Найдём номера под ваши пожелания
+        form.hero__form(action="#")
+            div.form__wrapper
+                div.form__block
+                    label(for="arrival") Прибытие
+                    input(type="date", name="arrival")
+                div.form__block
+                    label(for="departure") Выезд
+                    input(type="date", name="departure")
+            div.form__block
+                label(for="departure") Гости
+                select(name="Guest")
+                    option(value="disabled") Сколько гостей
+                    option(value="One") One
+                    option(value="Two") Two
+            input(type="button", value="Подобрать номер").hero__btn
+    p.hero__text Лучшие номера для вашей работы, отдыха и просто вдохновения

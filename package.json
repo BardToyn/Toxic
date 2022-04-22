@@ -1,0 +1,15 @@
+{
+  "name": "toxin",
+  "version": "1.0.0",
+  "description": "Дата начала проекта 06.04.2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
